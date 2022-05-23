@@ -49,12 +49,15 @@ header {
 
 .headline {
   color: rgba(255, 255, 255, 0.9);
+  flex-shrink: 0;
 }
 
 .social-links {
   margin-left: auto;
   display: flex;
-  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px 10px;
 }
 
 .social-link {
